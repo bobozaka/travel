@@ -1,0 +1,98 @@
+.form__container {
+  background-image: url('../../assets/imgForm.png');
+  padding-top: 106px;
+  padding-left: 828px;
+}
+
+.form__forma {
+  display: flex;
+  padding-bottom: 77px;
+  div {
+    margin: 0;
+    width: 36%;
+    margin-right: 71px;
+    h3 {
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 56px;
+      color: #000000;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+    p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 33px;
+      color: #000000;
+      margin: 0;
+      width: 51%;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      width: 284px;
+      height: 75px;
+      border: 2px solid #b1bec6;
+      border-radius: 38px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #b1bec6;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      padding-left: 36px;
+    }
+    button {
+      border: 0;
+      outline: none;
+      margin: 0 auto;
+      background-color: transparent;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #251a05;
+      background: #efc42b;
+      border-radius: 38px;
+      width: 284px;
+      height: 75px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: background-color 0.5s ease-in-out;
+      &:hover {
+        background-color: #aa870a;
+      }
+      &:focus {
+        background-color: #f7c40b;
+      }
+      &:active {
+        background-color: #756011;
+      }
+    }
+    span {
+      width: 50%;
+      margin: 0 auto;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 18px;
+      text-align: center;
+      color: #000000;
+      a {
+        color: #aa870a;
+      }
+    }
+  }
+}

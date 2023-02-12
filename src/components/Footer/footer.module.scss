@@ -1,0 +1,38 @@
+.footer__container {
+  img {
+    margin-right: 122px;
+  }
+  display: flex;
+  background: #f5f5f5;
+  padding: 70px 120px;
+  align-items: center;
+  div {
+    display: flex;
+    padding: 0;
+    p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 39%;
+      color: #7d8c97;
+    }
+  }
+}
+
+.footer__social {
+  justify-content: flex-end;
+  display: flex;
+  padding: 0;
+  margin-left: 30%;
+  li {
+    list-style-type: none;
+  }
+  li:not(:last-child) {
+    list-style-type: none;
+    margin-right: 39px;
+  }
+}

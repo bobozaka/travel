@@ -1,0 +1,104 @@
+.directions__container {
+  margin: 160px 262px;
+  display: flex;
+}
+
+.directions__left {
+  position: relative;
+  margin-right: 108px;
+  img {
+    width: 830px;
+    height: 475px;
+  }
+  sub {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 61px;
+    top: 41px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #ffffff;
+    span {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  div {
+    position: absolute;
+    left: 61px;
+    bottom: 45px;
+    display: flex;
+    align-items: center;
+    width: 87%;
+    justify-content: space-between;
+    p {
+      display: flex;
+      width: 22%;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      color: #ffffff;
+    }
+    svg {
+      cursor: pointer;
+    }
+  }
+}
+
+.directions__right {
+  h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 32px;
+  }
+  p {
+    width: 80%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 51px;
+  }
+  button {
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #efc42b;
+    border: 2px solid #efc42b;
+    border-radius: 38px;
+    width: 270px;
+    height: 75px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+    &:hover {
+      background-color: chocolate;
+    }
+    &:focus {
+      background-color: rgb(158, 87, 36);
+    }
+    &:active {
+      background-color: rgb(255, 106, 0);
+    }
+  }
+}
